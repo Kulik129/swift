@@ -29,9 +29,9 @@ for i in 10...50 where i % 2 != 0 {
 for i in 10...50 where i % 2 != 0 {
     if (i + k) != 0 {
         print(k + 1)
-        break
     } else {
         print("next")
+        break
     }
 }
 
